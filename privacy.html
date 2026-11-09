@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TubeForge — Privacy Policy</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header class="brand">
+      <a href="index.html"><img src="icon.svg" alt="" width="40" height="40" /></a>
+      <span>TubeForge<b>.</b></span>
+    </header>
+
+    <h1>Privacy Policy</h1>
+    <p class="muted">Last updated: 9 November 2026</p>
+
+    <p>
+      TubeForge ("the app") is a personal, self-hosted tool. It is installed and run by the channel owner
+      on their own computer or server. There is no TubeForge company server: we, the developers, never
+      receive your data.
+    </p>
+
+    <h2>1. Data the app accesses</h2>
+    <p>When you connect your Google account, you grant the app these permissions:</p>
+    <ul>
+      <li><code>youtube.upload</code> — to upload videos you have approved to your channel.</li>
+      <li><code>youtube.readonly</code> — to read basic information about your channel and videos.</li>
+      <li><code>yt-analytics.readonly</code> and <code>yt-analytics-monetary.readonly</code> — to read your channel's
+        analytics (views, watch time, subscribers, estimated revenue).</li>
+    </ul>
+
+    <h2>2. How the data is used</h2>
+    <ul>
+      <li>Only to upload your videos and to display your own channel's statistics on your private dashboard.</li>
+      <li>No advertising, profiling, or selling of data. Data is not used to train AI models.</li>
+    </ul>
+
+    <h2>3. Storage</h2>
+    <ul>
+      <li>Your OAuth refresh token is stored in a local configuration file (<code>.env</code>) on the machine running the app.</li>
+      <li>Analytics numbers and video metadata are stored in a local database on that same machine.</li>
+      <li>You can delete all data at any time by deleting the app's database and configuration file.</li>
+    </ul>
+
+    <h2>4. Sharing</h2>
+    <p>
+      Google user data is not shared with anyone. To create scripts, the app sends the <em>topic and channel settings you
+      write</em> (never your Google data) to the AI provider you configure (Anthropic). Text-to-speech and stock-footage
+      services receive only the script text and search keywords.
+    </p>
+
+    <h2>5. Google API Services User Data Policy</h2>
+    <p>
+      TubeForge's use and transfer of information received from Google APIs adheres to the
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+      including the Limited Use requirements. Use of YouTube data is also subject to the
+      <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the
+      <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+    </p>
+
+    <h2>6. Revoking access</h2>
+    <p>
+      You can revoke the app's access at any time at
+      <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+    </p>
+
+    <h2>7. Contact</h2>
+    <p>
+      Questions about this policy: open an issue at
+      <a href="https://github.com/ethananhh/tube-forge/issues">github.com/ethananhh/tube-forge/issues</a>.
+    </p>
+
+    <footer><a href="index.html">← Home</a> · Not affiliated with or endorsed by YouTube or Google.</footer>
+  </main>
+</body>
+</html>
